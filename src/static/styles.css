@@ -159,3 +159,20 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Add styles for participant info */
+.participant-info {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.participant-info .name {
+  font-weight: bold;
+  color: #000;
+}
+
+.participant-info .details {
+  font-style: italic;
+  color: #666;
+}

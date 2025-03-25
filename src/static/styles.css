@@ -125,6 +125,7 @@ button:hover {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
+  font-size: 14px;
 }
 
 .success {
@@ -139,15 +140,9 @@ button:hover {
   border: 1px solid #ef9a9a;
 }
 
-.info {
-  background-color: #d1ecf1;
-  color: #0c5460;
-  border: 1px solid #bee5eb;
-}
-
 .hidden {
   display: none;
-} 
+}
 
 footer {
   text-align: center;
@@ -155,4 +150,12 @@ footer {
   padding: 20px;
   color: #666;
 }
-a
+
+a {
+  color: #1a237e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
